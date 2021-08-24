@@ -1,4 +1,4 @@
-**Намного быстрее и проще ту же самую процедуру выполнить при помощи следующей команды PowerShell ниже, заменив servername на имя сервера, на котором размещен виртуальный каталог OWA.**
+**Отключаем смену паролей через OWA с помощью Powershell**
 ```bash
 Set-OwaVirtualDirectory -Identity "servername\owa (Default Web Site)" -ChangePasswordEnabled $false
 ```
